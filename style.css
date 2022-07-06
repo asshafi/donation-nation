@@ -4,25 +4,22 @@ body {
 
 }
 
-#banner {
+.banner {
+
     background-image: url(img/donation5.jpg);
-    background-image: linear-gradient (to bottom, transparent, #000);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
-    width: auto;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient (to bottom, transparent, #000);
 }
 
 .topspeach {
     color: white;
     text-align: center;
-    margin: 35% 45% 35%;
-    text-shadow: 2px;
-    font-size: xx-large;
-    text-shadow: 100px;
-
-
+    padding-top: 10%;
+    font-size: large;
 
 }
 
