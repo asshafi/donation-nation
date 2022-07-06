@@ -89,7 +89,7 @@ body {
     padding: 10px 25px;
     font-weight: 700;
     color: rgb(8, 9, 8);
-    margin-left: 45%;
+    margin-left: 47%;
     margin-top: 1%;
 }
 
@@ -109,8 +109,9 @@ body {
 
 .donateplan {
     display: flex;
-    margin-top: 050px;
-    margin-left: 90px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 60px;
 }
 
 #shelter {
@@ -150,4 +151,89 @@ body {
     padding-left: 10px;
     margin-left: 80px;
     margin-bottom: 50px;
+}
+
+.sec3 {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.inspiration {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+#img1 {
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 15%;
+    height: 340px;
+}
+
+.inps1 {
+    font-size: 50px;
+}
+
+.insp2 {
+    font-size: 20px;
+}
+
+#contribute {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 8px 15px;
+    font-weight: 800;
+    color: rgb(8, 9, 8);
+    margin-top: 5%;
+
+}
+
+#sec4 {
+    display: flex;
+    margin-top: 1%;
+
+    margin-bottom: 10%;
+}
+
+#img2 {
+    width: 40%;
+    padding-right: 10%;
+    padding-left: 5%;
+    border-radius: 15px;
+    height: 340px;
+}
+
+#myupdate {
+    text-align: center;
+    font-size: medium
+}
+
+#mymail {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    display: block;
+    width: 500px;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(251, 234, 215), rgb(247, 252, 224));
+    height: 150px;
+    width: 650px;
+}
+
+#form1 {
+    margin-top: 60px;
+
+}
+
+#form2 {
+    margin-top: 60px;
+    background-color: crimson;
+    color: white;
+
 }
