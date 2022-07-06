@@ -1,11 +1,12 @@
 body {
-    font-family: 'Acme', sans-serif;
+    font-family: 'Arima', cursive;
     margin: 0;
+
 }
 
 #banner {
     background-image: url(img/donation5.jpg);
-    background-image: linear-gradient (black, black);
+    background-image: linear-gradient (to bottom, transparent, #000);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -22,6 +23,7 @@ body {
     text-shadow: 100px;
 
 
+
 }
 
 .linkbutton {
@@ -32,7 +34,17 @@ body {
     padding: 8px 15px;
     font-weight: 500;
     color: rgb(8, 9, 8);
-    margin-left: 42%;
+
+}
+
+#foot {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 190px;
+    padding-top: 5px;
+
 }
 
 .donate {
@@ -98,14 +110,7 @@ body {
     color: orangered;
 }
 
-#foot {
-    text-align: center;
-    background-color: black;
-    color: white;
-    width: auto;
-    height: 150px;
-    padding-top: 20px;
-}
+
 
 .donateplan {
     display: flex;
