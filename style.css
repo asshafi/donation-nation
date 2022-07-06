@@ -5,23 +5,35 @@ body {
 }
 
 .banner {
-
+    position: relative;
     background-image: url(img/donation5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 600px;
     width: 100%;
-    background-image: linear-gradient (to bottom, transparent, #000);
+}
+
+.topspeach>div {
+    padding-bottom: 100px;
+    background-image: linear-gradient(to bottom, transparent, #000);
 }
 
 .topspeach {
+    position: absolute;
     color: white;
     text-align: center;
-    padding-top: 10%;
     font-size: large;
+    width: 100%;
+    bottom: 0;
 
 }
+
+#topheading {
+    font-size: 70px;
+    padding-bottom: 5px;
+}
+
 
 .linkbutton {
     text-align: center;
@@ -29,9 +41,8 @@ body {
     border-radius: 10px;
     background-image: linear-gradient(45deg, orange, tomato);
     padding: 8px 15px;
-    font-weight: 500;
-    color: rgb(8, 9, 8);
-
+    font-weight: 800;
+    color: black
 }
 
 #foot {
