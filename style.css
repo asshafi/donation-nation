@@ -6,16 +6,15 @@
     background-attachment: fixed;
     height: 500px;
     width: auto;
-
-
 }
 
 .topspeach {
-    color: whitesmoke;
+    color: white;
     text-align: center;
     margin: 35% 45% 35%;
     text-shadow: 2px;
     font-size: xx-large;
+    text-shadow: 100px;
 
 
 }
@@ -29,4 +28,35 @@
     font-weight: 500;
     color: rgb(8, 9, 8);
     margin-left: 42%;
+}
+
+#donate {
+    text-align: center;
+}
+
+.amountlist {
+    margin-left: 40px;
+    padding-left: 10px;
+    color: gray;
+    height: 90px;
+    width: 95px;
+    font-weight: 800;
+    font-size: large;
+    border-radius: 10px;
+    border: 10px;
+}
+
+#highlight {
+    margin-left: 40px;
+    padding-left: 10px;
+    color: rgb(252, 92, 34);
+    height: 90px;
+    width: 95px;
+    font-weight: 800;
+    font-size: large;
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: rgb(252, 92, 34);
+    background-color: rgb(248, 234, 236);
+
 }
