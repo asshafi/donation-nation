@@ -1,3 +1,8 @@
+body {
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+}
+
 #banner {
     background-image: url(img/donation5.jpg);
     background-image: linear-gradient (black, black);
@@ -30,9 +35,10 @@
     margin-left: 42%;
 }
 
-#donate {
+.donate {
     text-align: center;
     font-size: x-large;
+    padding-top: 70px;
 }
 
 .amountlist {
@@ -83,6 +89,65 @@
     padding: 10px 25px;
     font-weight: 700;
     color: rgb(8, 9, 8);
-    margin-left: 47%;
+    margin-left: 45%;
     margin-top: 1%;
+}
+
+#fh1 {
+    font-family: cursive;
+    color: orangered;
+}
+
+#foot {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.donateplan {
+    display: flex;
+    margin-top: 050px;
+    margin-left: 90px;
+}
+
+#shelter {
+    border-radius: 10px;
+    height: 300px;
+    width: 450px;
+    background-image: linear-gradient(45deg, rgb(181, 227, 209), rgb(232, 247, 234));
+    text-align: justify;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+#food {
+    border-radius: 10px;
+    height: 300px;
+    width: 450px;
+    background-image: linear-gradient(45deg, rgb(235, 223, 201), rgb(248, 244, 243));
+    text-align: justify;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+#education {
+    border-radius: 10px;
+    height: 300px;
+    width: 450px;
+    background-image: linear-gradient(45deg, rgb(246, 242, 166), rgb(247, 252, 224));
+    text-align: justify;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    margin-left: 80px;
+    margin-bottom: 50px;
 }
